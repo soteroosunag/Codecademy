@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="styles.css" rel="sylesheet">
+    </head>
+    <body>
+        <header>
+            <h1> Colors in CSS</h1>
+        </header>
+        <table>
+            <thead>
+                <trow>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Arguments</th>
+                    <th>Example (for red)</th>
+                </trow>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Keywords</td>
+                    <td>With this type you can use language to color things in CSS</td>
+                    <td>N/A</td>
+                    <td>color: red;</td>
+                </tr>
+                <tr>
+                    <td>Hexadecimal notation</td>
+                    <td>With this notation, you use a string with a hashtag followed 6 hexadecimal characters to set a color. 
+                        The first pair of digits accountfor red, the second pair for green, and the last for blue. </td>
+                    <td>N/A</td>
+                    <td>color: #FF0000;</td>
+                </tr>
+                <tr>
+                    <td>rgb() and rgba()</td>
+                    <td>With this notation, you declare a color by </td>
+                    <td>Numbers from 0-255 that represent the amount of red, green, blue
+                        in the color. Another number from 0-1 is required for the rgba()
+                        function that represents the opacity (or alpha in this case)</td>
+                    <td>color: rgb(255,0,0); // color: rgba(255,0,0,1); </td>
+                </tr>
+                <tr>
+                    <td>hsl() and hsla()</td>
+                    <td>With this notation, you declare a color based on the position in the color wheel, it's saturation
+                        and it's lightness </td>
+                    <td> First number represent the position in the color wheel with the angle (0-359), the second one
+                        represents the saturation in percentage, and the third one for the lightness in perecntage.
+                        As with the rgba() declaration, with hsla() a fourth number (alpha) is added to the end
+                        for the opacity.  </td>
+                    <td>hsl(0, 100%, 50%) // hsl(0, 100%, 50%, 1)</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
